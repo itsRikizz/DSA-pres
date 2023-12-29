@@ -3,7 +3,7 @@ import java.util.*;
 public class Wired {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in); 
-      int n = sc.nextInt();
+      long n = sc.nextLong();
       System.out.print(n + " ");
       while(n>1){
         if(n%2==0){
