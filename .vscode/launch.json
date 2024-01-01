@@ -1,0 +1,71 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CalculateSum",
+            "request": "launch",
+            "mainClass": "CalculateSum",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
+            "name": "FindMinimumMaximum",
+            "request": "launch",
+            "mainClass": "FindMinimumMaximum",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
+            "name": "FindVal",
+            "request": "launch",
+            "mainClass": "FindVal",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
+            "name": "LongestStringCount",
+            "request": "launch",
+            "mainClass": "LongestStringCount",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
+            "name": "Maximum",
+            "request": "launch",
+            "mainClass": "Maximum",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
+            "name": "Minimum",
+            "request": "launch",
+            "mainClass": "Minimum",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "MissingNumber",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
+            "name": "Wired",
+            "request": "launch",
+            "mainClass": "Wired",
+            "projectName": "DSA pres_880d21d8"
+        }
+    ]
+}
