@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "RemoveDuplicate",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
             "name": "SecondMax",
             "request": "launch",
             "mainClass": "SecondMax",
