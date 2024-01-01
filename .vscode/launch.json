@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SecondMax",
+            "request": "launch",
+            "mainClass": "SecondMax",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
             "name": "CheckPalindrom",
             "request": "launch",
             "mainClass": "CheckPalindrom",
