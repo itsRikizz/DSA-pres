@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MoveNegative",
+            "request": "launch",
+            "mainClass": "MoveNegative",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
             "name": "MoveZeros",
             "request": "launch",
             "mainClass": "MoveZeros",
