@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubArrays",
+            "request": "launch",
+            "mainClass": "SubArrays",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
             "name": "FindMissingNumber",
             "request": "launch",
             "mainClass": "FindMissingNumber",
