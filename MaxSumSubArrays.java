@@ -1,15 +1,19 @@
 import java.util.*;
 
-public class SubArrays {
-    public static void print_subarray(int arr[],int n){
+public class MaxSumSubArrays {
+    public static int print_subarray(int arr[],int n){
+        int maxSum= Integer.MIN_VALUE;
+        
         for (int i = 0; i < n; i++) {
+            int currentSum =0;
             for (int j = i; j < n; j++) {
-                for (int k = i; k < j; k++) {
-                    System.out.println(arr[k]+" ");
+                currentSum+=arr[j];
+                if(currentSum>maxSum){
+                    maxSum=currentSum;
                 }
-                System.out.println();
             }
         }
+        return maxSum;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
@@ -19,7 +23,8 @@ public class SubArrays {
             arr[i]= sc.nextInt();
             
         }
-        print_subarray(arr, n);
+       int res= print_subarray(arr, n);
+       System.out.println(res);
         
     }
 }
