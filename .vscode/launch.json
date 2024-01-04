@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "bubbleSort",
+            "projectName": "DSA pres_880d21d8"
+        },
+        {
+            "type": "java",
             "name": "MaxSumSubArrays",
             "request": "launch",
             "mainClass": "MaxSumSubArrays",
