@@ -28,6 +28,8 @@ public class BinarySearch {
         }
         int target = sc.nextInt();
         //Arr=[5, 4, 7, 2, 6]
+        //Arr=[5, 4, 7, 2, 6]
+        //Arr=[5, 4, 7, 2, 6]
         
        int res= SearchK(arr,target);
        if (res!=-1) {
